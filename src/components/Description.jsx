@@ -21,7 +21,7 @@ const Description = () => {
         </div>
         <div>
           <img
-            className="w-[727px] h-[645px] xs:w-[345px] xs:h-[230px]"
+            className="w-[727px] h-[645px] xs:w-[345px] xs:h-[230px] rounded-2xl "
             src="/7d7e37650ba8a26d890460dfa5b412a9 1.png"
             alt=""
           />

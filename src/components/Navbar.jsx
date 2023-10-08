@@ -47,13 +47,13 @@ const Navbar = () => {
             </div>
             <div>
               <ul className="flex gap-[3rem] items-center justify-center text-white text-sm font-poppins">
-                <li>About</li>
-                <li>Blog</li>
-                <li>Contact</li>
-                <li>Pricing</li>
+                <li className='hover:text-[#594EDC] hover:bg-white rounded-full cursor-pointer p-2'>About</li>
+                <li className='hover:text-[#594EDC] hover:bg-white rounded-full cursor-pointer p-2'>Blog</li> 
+                <li className='hover:text-[#594EDC] hover:bg-white rounded-full cursor-pointer p-2'>Contact</li>
+                <li className='hover:text-[#594EDC] hover:bg-white rounded-full cursor-pointer p-2'>Pricing</li>
                 <li>
-                  <button className="bg-white  w-[120px] rounded-3xl p-1 px-4 py-2">
-                    <h3 className="bg-gradient-to-r from-[#594EDC] to-[#A54DE4] inline-block text-transparent bg-clip-text">
+                  <button className="bg-white  w-[120px] rounded-3xl p-1 px-4  text">
+                    <h3 className="bg-gradient-to-r from-[#594EDC] to-[#A54DE4] inline-block text-transparent bg-clip-text ">
                       Try for free
                     </h3>
                   </button>

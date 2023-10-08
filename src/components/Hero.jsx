@@ -13,11 +13,11 @@ const Hero = () => {
             In march 2021, we set out on a journey to transform <br />{" "}
             healthcare in Africa, one solution at a time.
           </p>
-          <div className="absolute right-[10%] top-[70%] hidden  md:block lg:block xl:block">
+          <div className="absolute right-[10%] top-[70%] hidden  md:block lg:block xl:block animate-bounce">
             <img src="/Vector 1.png" alt="" className="w-[50px] h-[60px]" />
           </div>
 
-          <div className="lg:hidden xl:hidden pt-2 text-sm font-poppins">
+          <div className=" w-full lg:hidden xl:hidden pt-2 text-sm font-poppins">
             <p>
               REMOTE-PAPERLESS-ADVANCED <br />
               FINANCIAL MANAGEMENT

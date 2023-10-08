@@ -6,6 +6,7 @@ export default {
       'poppins': ['nunito', 'poppins'],
    
     },
+    
   },
   plugins: [],
 };
