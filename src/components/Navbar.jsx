@@ -46,7 +46,7 @@ const Navbar = () => {
               <h1>Bloom</h1>
             </div>
             <div>
-              <ul className="flex gap-[3rem] items-center justify-center text-white text-sm font-poppins">
+              <ul className="flex gap-[10%] items-center justify-center text-white text-sm font-poppins">
                 <li className='hover:text-[#594EDC] hover:bg-white rounded-full cursor-pointer p-2'>About</li>
                 <li className='hover:text-[#594EDC] hover:bg-white rounded-full cursor-pointer p-2'>Blog</li> 
                 <li className='hover:text-[#594EDC] hover:bg-white rounded-full cursor-pointer p-2'>Contact</li>

@@ -1,15 +1,15 @@
 import React from "react";
 
 const Description = () => {
-  return (
-    <div className=" max-w-[1640px] w-full h-[100vh] relative left-0 top-[100vh]">
-      <div className="grid md:grid-cols-2 gap-[10%] items-center justify-between">
+  return (  
+    <div className=" max-w-[1640px] w-full h-[90vh] relative left-0 top-[75vh] md:top-[63vh] lg:top-[88vh] pt-20">
+      <div className="flex flex-col md:grid md:grid-cols-2 gap-[10%] items-center justify-center">
         <div className="flex flex-col gap-y-6 items-start text-left">
-          <h2 className="text-transform: uppercase text-[80px] font-poppins font-bold">
+          <h2 className="text-transform: uppercase text-[60px] font-poppins font-bold">
             The <span className=" bg-gradient-to-r from-[#594EDC] to-[#A54DE4] inline-block text-transparent bg-clip-text"> Bloom</span> <br />
             way
           </h2>
-          <p className="font-[20px] font-poppins text-[#1A1A1A]">
+          <p className="sm:font-[20px] font-poppins text-[#1A1A1A]">
             Access all important documents in one place,Run <br /> Rn your
             business from anywhere in the world, Manage <br />
             All income and expenditure in one place, Connect <br />
@@ -21,7 +21,7 @@ const Description = () => {
         </div>
         <div>
           <img
-            className="w-[727px] h-[645px] xs:w-[345px] xs:h-[230px] rounded-2xl "
+            className=" w-[20rem] h-[400px] lg:w-[745px] lg:h-[350px] pt-4"
             src="/7d7e37650ba8a26d890460dfa5b412a9 1.png"
             alt=""
           />

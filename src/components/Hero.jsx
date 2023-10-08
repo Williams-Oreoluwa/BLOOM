@@ -3,10 +3,10 @@ import MobileMenu from "./MobileMenu";
 
 const Hero = () => {
   return (
-    <div className="absolute top-0 left-0 text-left w-full h-[100vh] bg-gradient-to-r from-[#594EDC] to-[#A54DE4] p-0">
+    <div className="absolute top-0 left-0 text-left w-full h-[86vh] md:h-[70vh] lg:h-[110vh] bg-gradient-to-r from-[#594EDC] to-[#A54DE4] p-0">
       <div className="absolute top-[27%]  left-[11%] lg:top-[40%] grid grid-cols-2 ">
         <div className=" font-poppins text-white">
-          <h2 className="flex flex-col gap-3 text-[35px] font-bold  md:text-[44px] lg:text-[62px]">
+          <h2 className="flex flex-col gap-3 text-[30px] font-bold  md:text-[44px] lg:text-[62px]">
             Your Medical  Practice made easy.
           </h2>
           <p className="hidden md:block lg:block xl:block">

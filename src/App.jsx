@@ -6,6 +6,8 @@ import Navbar from "./components/Navbar";
 import Hero from "./components/Hero";
 import MobileMenu from "./components/MobileMenu";
 import Description from "./components/Description";
+import Service from "./components/Service";
+import Cards from "./components/Cards";
 
 function App() {
 
@@ -15,6 +17,8 @@ function App() {
       <Navbar/>
       <Hero/>
       <Description/>
+      <Service/>
+      <Cards/>
     </>
   );
 }
