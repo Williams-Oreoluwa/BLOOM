@@ -2,14 +2,18 @@ import React from "react";
 
 const Photo = () => {
   return (
-    <div className="mx-w-[1645px] font-poppins mx-auto absolute left-0 top-[230rem] sm:top-[220rem] md:top-[270%] lg:top-[385%]">
+    <div className="mx-w-[1645px] font-poppins mx-auto absolute left-0 top-[230rem] sm:top-[210rem] md:top-[270%] lg:top-[385%]">
       <div className="relative">
         <img
-          className=" h-[500px] sm:h-[300px] w-[1512px]  lg:h-[450px]"
-          src="/patty-brito-Y-3Dt0us7e0-unsplash.png"
+          className=" h-[500px]  w-[1512px] sm:h-[700px]  xl:hidden md:hidden lg:hidden"
+          src="/patty-brito-Y-3Dt0us7e0-unsplash mob.png"
           alt=""
         />
-
+    <img
+          className="hidden  w-[1512px]  lg:h-[450px] md:block lg:block xl:block"
+          src="/patty-brito-Y-3Dt0us7e0-unsplash desk.png"
+          alt=""
+        />
         <div className="text-left absolute top-[7rem] left-3 lg:left-[4rem] text-white">
           <h2>
             What we have achieved <br /> in the past two years.
