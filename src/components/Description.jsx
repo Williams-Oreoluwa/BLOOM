@@ -2,7 +2,7 @@ import React from "react";
 
 const Description = () => {
   return (  
-    <div className=" max-w-[1640px] w-full h-[90vh] relative left-0 top-[75vh] md:top-[63vh] lg:top-[88vh] pt-20">
+    <div className=" max-w-[1640px] w-full h-[90vh] relative left-0 top-[75vh] md:top-[63vh] lg:top-[92vh] pt-20">
       <div className="flex flex-col md:grid md:grid-cols-2 gap-[10%] items-center justify-center">
         <div className="flex flex-col gap-y-6 items-start text-left">
           <h2 className="text-transform: uppercase text-[60px] font-poppins font-bold">

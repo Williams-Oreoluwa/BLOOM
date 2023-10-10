@@ -8,6 +8,7 @@ import MobileMenu from "./components/MobileMenu";
 import Description from "./components/Description";
 import Service from "./components/Service";
 import Cards from "./components/Cards";
+import Photo from "./components/Photo";
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Description/>
       <Service/>
       <Cards/>
+      <Photo/>
     </>
   );
 }

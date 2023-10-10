@@ -4,7 +4,7 @@ import { BsArrowsAngleContract } from "react-icons/bs";
 const Service = () => {
   return (
     <>
-      <div className="absolute pt-20 max-w-[1640px] mx-auto left-0 top-[105rem] md:top-[93rem] lg:top-[200vh] text-black w-full h-[100vh] items-left text-left ">
+      <div className="absolute pt-20 max-w-[1640px] mx-auto left-0 top-[105rem] md:top-[93rem] lg:top-[190%] text-black w-full h-[100vh] items-left text-left ">
         <div className="flex flex-col gap-2 ">
           <h2 className="text-[62px] font-poppins pl-6 uppercase">
             What we offer

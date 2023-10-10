@@ -2,7 +2,7 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <section className="relative top-[111rem] md:top-[65rem] lg:top-[200vh] font-poppins ">
+    <section className="relative top-[112rem] sm:top-[105rem] md:top-[65rem] lg:top-[190vh] font-poppins ">
       <main className="w-full h-[60vh] grid md:grid-cols-2 lg:grid-cols-3 gap-6">
         <div className="flex flex-col gap-3 pb-[22px] items-center justify-center text-center shadow-2xl p-4">
           <img src="/pajamas_planning.png" alt="" />
