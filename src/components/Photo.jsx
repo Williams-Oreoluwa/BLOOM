@@ -2,7 +2,7 @@ import React from "react";
 
 const Photo = () => {
   return (
-    <div className="mx-w-[1645px] font-poppins mx-auto absolute left-0 top-[230rem] sm:top-[210rem] md:top-[270%] lg:top-[385%]">
+    <div className="mx-w-[1645px] font-poppins mx-auto absolute left-0 top-[225rem] sm:top-[210rem] md:top-[270%] lg:top-[385%] pt-[80px]">
       <div className="relative">
         <img
           className=" h-[500px]  w-[1512px] sm:h-[700px]  xl:hidden md:hidden lg:hidden"
