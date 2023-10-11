@@ -41,7 +41,7 @@ const Reviews = () => {
       </div>
     </div>
    
-    <div className="absolute top-[267rem] left-0 md:hidden lg:hidden w-full font-poppins ">
+    <div className="absolute top-[264rem] left-0 md:hidden lg:hidden w-full font-poppins ">
       <div className=" w=full flex flex-col gap-4 ">
         <h2 className="text-left text-[35px] md:text-[35px]   text-black">Customers Review</h2>
         <div className="grid  text-white text-left bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
