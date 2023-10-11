@@ -2,10 +2,10 @@ import React from "react";
 
 const Photo = () => {
   return (
-    <div className="mx-w-[1645px] font-poppins mx-auto absolute left-0 top-[225rem] sm:top-[210rem] md:top-[270%] lg:top-[385%] pt-[80px]">
+    <div className=" font-poppins relative  top-[133rem]  left-[0rem] sm:top-[210rem] md:absolute lg:absolute md:top-[270%] lg:top-[360%] pt-[80px]">
       <div className="relative">
         <img
-          className=" h-[500px]  w-[1512px] sm:h-[700px]  xl:hidden md:hidden lg:hidden"
+          className=" h-[500px]  w-[1512px] sm:h-[700px]  xl:hidden md%:hidden lg:hidden"
           src="/patty-brito-Y-3Dt0us7e0-unsplash mob.png"
           alt=""
         />
