@@ -2,9 +2,9 @@ import React from "react";
 import MobileMenu from "./MobileMenu";
 
 const Hero = () => {
-  return (
-    <div className="absolute top-0 left-0 text-left w-full h-[86vh] md:h-[70vh] lg:h-[110vh] bg-gradient-to-r from-[#594EDC] to-[#A54DE4] p-0">
-      <div className="absolute top-[27%]  left-[11%] lg:top-[40%] grid grid-cols-2 ">
+  return ( 
+    <div className="absolute top-0 left-0 text-left w-full h-[86vh]  md:h-[70vh] lg:h-[110vh] bg-gradient-to-r from-[#594EDC] to-[#A54DE4] p-0">
+      <div className="absolute top-[24%]  left-[11%] lg:top-[40%] grid grid-cols-2 ">
         <div className=" font-poppins text-white">
           <h2 className="flex flex-col gap-3 text-[30px] font-bold  md:text-[44px] lg:text-[62px]">
             Your Medical  Practice made easy.
@@ -22,8 +22,8 @@ const Hero = () => {
               REMOTE-PAPERLESS-ADVANCED <br />
               FINANCIAL MANAGEMENT
             </p>
-            <div className="pt-7">
-              <button className="bg-white  w-[120px] rounded-3xl p-1 px-4 py-2">
+            <div className="pt-2">
+              <button className="bg-white  w-[120px] rounded-3xl p-1 px-4 pb-2">
                 <h3 className="bg-gradient-to-r from-[#594EDC] to-[#A54DE4] inline-block text-transparent bg-clip-text">
                   Try for free
                 </h3>

@@ -10,6 +10,7 @@ import Service from "./components/Service";
 import Cards from "./components/Cards";
 import Photo from "./components/Photo";
 import Reviews from "./components/Reviews";
+import Blog from "./components/Blog";
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
       <Cards/>
       <Photo/>
       <Reviews/>
+      <Blog/>
     </>
   );
 }
