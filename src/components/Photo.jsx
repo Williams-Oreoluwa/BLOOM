@@ -10,7 +10,7 @@ const Photo = () => {
           alt=""
         />
     <img
-          className="hidden  w-[1512px]  lg:h-[450px] md:block lg:block xl:block"
+          className="hidden  w-[1512px]  md:h-[500px] lg:h-[450px] md:block lg:block xl:block"
           src="/patty-brito-Y-3Dt0us7e0-unsplash desk.png"
           alt=""
         />

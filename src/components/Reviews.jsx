@@ -30,7 +30,7 @@ const Reviews = () => {
                 className="w-full"
               />
             </div>
-            <div className="w-[5rem] h-[5rem] absolute top-[9rem] left-[11rem] p-3 rounded-full text-white  bg-white bg-opacity-30 flex items-center justify-center">
+            <div className="w-[5rem] h-[5rem] absolute top-[9rem] left-[11rem] p-3 rounded-full text-white  bg-white bg-opacity-30 flex items-center justify-center cursor-pointer">
               <h2 className="text-[2.5rem]">
                 <BsPlayFill />
               </h2>
@@ -53,7 +53,7 @@ const Reviews = () => {
                 className="w-full"
               />
             </div>
-            <div className="w-[5rem] h-[5rem] mx-auto relative top-[-50%]  p-3 rounded-full text-white  bg-white bg-opacity-30 flex items-center justify-center">
+            <div className="w-[5rem] h-[5rem] mx-auto relative top-[-50%]  p-3 rounded-full text-white  bg-white bg-opacity-30 flex items-center justify-center cursor-pointer">
               <h2 className="text-[2.5rem]">
                 <BsPlayFill />
               </h2>

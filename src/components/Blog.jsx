@@ -10,14 +10,14 @@ const Blog = () => {
         <div className="text-[17px]">
           Check out our news about the use of technology in the medical field.
         </div>
-        <div>
+        <div className="flex items-center justify-center">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="relative hover:scale-[1.01] duration-100 cursor-pointer">
               <img className="5"
                 src="/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.png"
                 alt=""
               />
-                   <h3 className="absolute top-[19rem] text-[11px] left-4 text-left text-white font-light">
+                   <h3 className="absolute top-[16rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
                 Check out our latest news and <br />
                 articles about the use of technology <br /> in the medical
@@ -29,7 +29,7 @@ const Blog = () => {
             </div>
             <div className="relative  hover:scale-[1.01] duration-100 cursor-pointer">
               <img src="/Group 12.png" alt="" />
-              <h3 className="absolute top-[19rem] text-[11px] left-4 text-left text-white font-light">
+              <h3 className="absolute top-[16rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
                 Check out our latest news and <br />
                 articles about the use of technology <br /> in the medical
@@ -38,7 +38,7 @@ const Blog = () => {
             </div>
             <div className="relative  hover:scale-[1.01] duration-100 cursor-pointer">
               <img  src="/Group 13.png" alt="" />
-              <h3 className="absolute top-[19rem] text-[11px] left-4 text-left text-white font-light">
+              <h3 className="absolute top-[16rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
                 Check out our latest news and <br />
                 articles about the use of technology <br /> in the medical
@@ -47,8 +47,10 @@ const Blog = () => {
             </div>
           </div>
         </div>
-        <div>
-          <button></button>
+        <div className="md:flex lg:flex items-center justify-center pt-4 cursor-pointer hidden">
+          <button className='rounded-full  bg-gradient-to-r from-[#594EDC] to-[#A54DE4] p-2 px-4  text-white'>
+            Visit Blog
+          </button>
         </div>
       </div>
     </div>
