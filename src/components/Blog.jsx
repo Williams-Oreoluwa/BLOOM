@@ -12,17 +12,18 @@ const Blog = () => {
         </div>
         <div>
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div>
+            <div className="relative">
               <img
                 src="/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.png"
                 alt=""
               />
-                  <h3 className="absolute pl-6 top-[27rem] text-[11px] left-4 text-left text-white font-light">
+                   <h3 className="absolute top-[17rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
                 Check out our latest news and <br />
                 articles about the use of technology <br /> in the medical
                 field.{" "}
               </h3>
+           
 
           
             </div>
