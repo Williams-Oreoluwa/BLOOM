@@ -11,8 +11,8 @@ const Blog = () => {
           Check out our news about the use of technology in the medical field.
         </div>
         <div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 cursor-pointer">
-            <div className="relative hover:scale-[1.01] duration-100">
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+            <div className="relative hover:scale-[1.01] duration-100 cursor-pointer">
               <img className="5"
                 src="/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.png"
                 alt=""
@@ -27,7 +27,7 @@ const Blog = () => {
 
           
             </div>
-            <div className="relative  hover:scale-[1.01] duration-100">
+            <div className="relative  hover:scale-[1.01] duration-100 cursor-pointer">
               <img src="/Group 12.png" alt="" />
               <h3 className="absolute top-[19rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
@@ -36,7 +36,7 @@ const Blog = () => {
                 field.{" "}
               </h3>
             </div>
-            <div className="relative  hover:scale-[1.01] duration-100">
+            <div className="relative  hover:scale-[1.01] duration-100 cursor-pointer">
               <img  src="/Group 13.png" alt="" />
               <h3 className="absolute top-[19rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
