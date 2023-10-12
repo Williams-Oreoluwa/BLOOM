@@ -3,8 +3,8 @@ import React from "react";
 const Cards = () => {
   return (
     <section className="relative top-[107rem] sm:top-[105rem] md:top-[75rem] lg:top-[190vh] font-poppins ">
-      <main className="w-full h-[60vh] grid md:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div className="flex flex-col gap-3 pb-[22px] items-center justify-center text-center shadow-2xl p-4">
+      <main className="w-full h-[60vh] grid md:grid-cols-2 lg:grid-cols-3 gap-6 cursor-pointer">
+        <div className="flex flex-col gap-3 hover:scale-[1.1] duration-100 pb-[22px] items-center justify-center text-center shadow-2xl p-4">
           <img src="/pajamas_planning.png" alt="" />
           <h2 className="text-[26px] font-bold">
             Strategic Planning
@@ -14,7 +14,7 @@ const Cards = () => {
             time insights on sales, growth, <br /> expenses and a lot more.
           </p>
         </div>
-        <div className="flex flex-col gap-3 pb-[22px] items-center justify-center text-center shadow-2xl p-4">
+        <div className="flex flex-col hover:scale-[1.1] duration-100 gap-3 pb-[22px] items-center justify-center text-center shadow-2xl p-4">
           <img src="/mdi_paper-text-outline.png" alt="" />
           <h2 className="text-[26px] font-bold">
             Remote and Paperless
@@ -24,7 +24,7 @@ const Cards = () => {
             on what's happening and <br /> take your business Paperless.
           </p>
         </div>
-        <div className="flex flex-col gap-3 pb-[22px] items-center justify-center text-center shadow-2xl p-4">
+        <div className="flex flex-col hover:scale-[1.1] duration-100 gap-3 pb-[22px] items-center justify-center text-center shadow-2xl p-4">
           <img src="/mdi_finance.png" alt="" />
           <h2 className="text-[26px] font-bold">
             Manage finances

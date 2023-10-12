@@ -11,13 +11,13 @@ const Blog = () => {
           Check out our news about the use of technology in the medical field.
         </div>
         <div>
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div className="relative">
-              <img
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4 cursor-pointer">
+            <div className="relative hover:scale-[1.01] duration-100">
+              <img className="5"
                 src="/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.png"
                 alt=""
               />
-                   <h3 className="absolute top-[17rem] text-[11px] left-4 text-left text-white font-light">
+                   <h3 className="absolute top-[19rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
                 Check out our latest news and <br />
                 articles about the use of technology <br /> in the medical
@@ -27,18 +27,18 @@ const Blog = () => {
 
           
             </div>
-            <div className="relative">
+            <div className="relative  hover:scale-[1.01] duration-100">
               <img src="/Group 12.png" alt="" />
-              <h3 className="absolute top-[17rem] text-[11px] left-4 text-left text-white font-light">
+              <h3 className="absolute top-[19rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
                 Check out our latest news and <br />
                 articles about the use of technology <br /> in the medical
                 field.{" "}
               </h3>
             </div>
-            <div className="relative">
+            <div className="relative  hover:scale-[1.01] duration-100">
               <img  src="/Group 13.png" alt="" />
-              <h3 className="absolute top-[17rem] text-[11px] left-4 text-left text-white font-light">
+              <h3 className="absolute top-[19rem] text-[11px] left-4 text-left text-white font-light">
                 {" "}
                 Check out our latest news and <br />
                 articles about the use of technology <br /> in the medical
