@@ -2,8 +2,8 @@ import React from "react";
 
 const Blog = () => {
   return (
-    <div className="mx-w-[1654px] absolute lg:relative lg:top-[320vh] top-[266rem] md:top-[306rem] left-[0] font-poppins px-4">
-      <div className="text-left flex flex-col gap-3">
+    <div className="flex flex-col relative w-full font-poppins">
+      <div className="max-w-[1650px] p-[1rem] md:p-[2rem] lg:p-[4rem] xl:p-[6rem] text-left flex flex-col gap-3 ">
         <div className="uppercase">
           <h2 className="text-[30px]">Blog</h2>
         </div>
@@ -12,38 +12,23 @@ const Blog = () => {
         </div>
         <div className="flex items-center justify-center">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
-            <div className="relative hover:scale-[1.01] duration-100 cursor-pointer">
-              <img className="5"
+            <div className=" hover:scale-[1.01] duration-100 cursor-pointer">
+              <img className=""
                 src="/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.png"
                 alt=""
-              />
-                   <h3 className="absolute top-[16rem] text-[11px] left-4 text-left text-white font-light">
-                {" "}
-                Check out our latest news and <br />
-                articles about the use of technology <br /> in the medical
-                field.{" "}
-              </h3>
-           
-
+              />  
           
+             
             </div>
-            <div className="relative  hover:scale-[1.01] duration-100 cursor-pointer">
+            <div className=" hover:scale-[1.01] duration-100 cursor-pointer">
               <img src="/Group 12.png" alt="" />
-              <h3 className="absolute top-[16rem] text-[11px] left-4 text-left text-white font-light">
-                {" "}
-                Check out our latest news and <br />
-                articles about the use of technology <br /> in the medical
-                field.{" "}
-              </h3>
+       
+            
             </div>
-            <div className="relative  hover:scale-[1.01] duration-100 cursor-pointer">
+            <div className=" hover:scale-[1.01] duration-100 cursor-pointer">
               <img  src="/Group 13.png" alt="" />
-              <h3 className="absolute top-[16rem] text-[11px] left-4 text-left text-white font-light">
-                {" "}
-                Check out our latest news and <br />
-                articles about the use of technology <br /> in the medical
-                field.{" "}
-              </h3>
+           
+            
             </div>
           </div>
         </div>

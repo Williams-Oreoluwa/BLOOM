@@ -5,11 +5,11 @@ const Navbar = () => {
   const [Nav, setNav] = React.useState(false);
   return (
     // Mobile Nav bar
-    <div>
+    <div className=" w-full  bg-gradient-to-r z-[1] from-[#594EDC] to-[#A54DE4]">
       {Nav ? <MobileMenu /> : ""}
-      <div className="relative max-w-[1640px] mx-auto justify-center items-center z-[2]">
-        <div className="bg-white p-3 rounded-2xl  lg:hidden xl:hidden 2xl:hidden">
-          <div className='grid grid-cols-2 gap-[45vw]  md:gap-[75vw] items-center justify-center'>
+      <div className="max-w-[1650px] relative  w-full p-4 ">
+        <div className="max-w-[1650px] bg-white  p-4  rounded-2xl lg:hidden xl:hidden 2xl:hidden">
+          <div className='grid grid-cols-2 place-items-center gap-[40vw] md:gap-[65vw]'>
             <div>
               <img
                 size={30}
@@ -28,7 +28,7 @@ const Navbar = () => {
               />
               <img
                 onClick={() => setNav(!Nav)}
-                className={`${!Nav ? "hidden  z-[6]" : "block fixed"}`}
+                className={`${!Nav ? "hidden  " : "z-[6] block fixed"}`}
                 src="/Vector 50.png"
                 alt=""
               />
@@ -40,8 +40,8 @@ const Navbar = () => {
 
         {/* Desktop screen */}
 
-        <div className="left-[10rem]  hidden lg:block xl:block 2xl:block p-4">
-          <div className="flex gap-[25rem] xl:gap-[30rem] items-center justify-center">
+        <div className=" hidden relative w-full lg:block xl:block 2xl:block px-auto">
+          <div className="flex gap-[25rem] max-w-[1650px] xl:gap-[30rem] item-center justify-center p-[1rem]">
             <div className="text-white text-3xl">
               <h1>Bloom</h1>
             </div>

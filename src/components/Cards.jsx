@@ -2,9 +2,9 @@ import React from "react";
 
 const Cards = () => {
   return (
-    <section className="relative top-[107rem] sm:top-[105rem] md:top-[75rem] lg:top-[190vh] font-poppins ">
-      <main className="w-full h-[60vh] grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
-        <div className="flex flex-col gap-3 hover:scale-[1.1] duration-100 cursor-pointer pb-[22px] items-center justify-center text-center shadow-2xl p-4">
+    <section className="w-full relative font-poppins ">
+      <main className="max-w-[1650px] p-[1rem] md:p-[2rem] lg:p-[4rem] xl:p-[6rem] grid md:grid-cols-2 lg:grid-cols-3 gap-6 ">
+        <div className="flex flex-col gap-6 hover:scale-[1.1] duration-100 cursor-pointer pb-[22px] items-center justify-center text-center shadow-2xl p-4">
           <img src="/pajamas_planning.png" alt="" />
           <h2 className="text-[26px] font-bold">
             Strategic Planning

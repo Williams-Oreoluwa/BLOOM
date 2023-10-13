@@ -2,26 +2,42 @@ import React from "react";
 import MobileMenu from "./MobileMenu";
 
 const Hero = () => {
-  return ( 
-    <div className="absolute top-0 left-0 text-left w-full h-[86vh]  md:h-[70vh] lg:h-[110vh] bg-gradient-to-r from-[#594EDC] to-[#A54DE4] p-0">
-      <div className="absolute top-[24%]  left-[11%] lg:top-[40%] grid grid-cols-2 ">
-        <div className=" font-poppins text-white">
-          <h2 className="flex flex-col gap-3 text-[30px] font-bold  md:text-[44px] lg:text-[62px]">
-            Your Medical  Practice made easy.
-          </h2>
-          <p className="hidden md:block lg:block xl:block">
-            In march 2021, we set out on a journey to transform <br />{" "}
-            healthcare in Africa, one solution at a time.
-          </p>
-          <div className="absolute right-[10%] top-[70%] hidden  md:block lg:block xl:block animate-bounce">
-            <img src="/Vector 1.png" alt="" className="w-[50px] h-[60px]" />
+  return (
+    <div className="relative top-[-1rem]  min-h-screen  text-left w-full bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
+      <div className="max-w-[1650px] grid grid-cols-1 gap-[7rem] items-left justify-left pt-[8rem]  p-[1rem] md:p-[3rem] lg:p-[5rem] xl:p-[7rem]">
+        <div className=" font-poppins text-white ">
+          <div>
+            <div>
+              <h2 className="flex flex-col  text-[41px] font-bold  md:text-[44px] lg:text-[62px] uppercase">
+                Your Medical <br /> Practice made <br /> easy.
+              </h2>
+              <br />
+              <div className="flex flex-row gap-[14vw]">
+                <div>
+                  <p className="hidden md:block lg:block xl:block text-[25px] ">
+                    In march 2021, we set out on a journey to transform <br />{" "}
+                    healthcare in Africa, one solution at a time.
+                  </p>
+                </div>
+
+                <div className=" hidden  md:block lg:block xl:block animate-bounce">
+                  <img
+                    src="/Vector 1.png"
+                    alt=""
+                    className="w-[50px] h-[60px]"
+                  />
+                </div>
+              </div>
+            </div>
           </div>
 
-          <div className=" w-full lg:hidden xl:hidden pt-2 text-sm font-poppins">
-            <p>
+          <div className=" w-full lg:hidden xl:hidden pt-2 font-poppins">
+            <br />
+            <p className="text-[25px] pb-1">
               REMOTE-PAPERLESS-ADVANCED <br />
               FINANCIAL MANAGEMENT
             </p>
+            <br />
             <div className="pt-2">
               <button className="bg-white  w-[120px] rounded-3xl p-1 px-4 pb-2">
                 <h3 className="bg-gradient-to-r from-[#594EDC] to-[#A54DE4] inline-block text-transparent bg-clip-text">

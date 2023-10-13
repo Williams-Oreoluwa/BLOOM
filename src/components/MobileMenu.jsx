@@ -8,7 +8,7 @@ const MobileMenu = () => {
     }
  
   return (
-    <div className="bg-white fixed top-0 left-0 w-full h-[100vh] z-[1]  lg:hidden xl:hidden 2xl:hidden">
+    <div className="bg-white fixed top-0 left-0 w-full h-[100vh]  z-[2] lg:hidden xl:hidden 2xl:hidden">
         
      
       <div className="relative top-[55%] left-[6%] text-[32px]">

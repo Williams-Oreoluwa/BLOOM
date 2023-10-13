@@ -4,7 +4,7 @@ import { BsPlay, BsPlayFill } from "react-icons/bs";
 const Reviews = () => {
   return (
     <>
-    <div className="relative hidden lg:block  top-[170rem] 2xl:top-[110rem] lg:top-[300vh] w-full px-[2rem] font-poppins ">
+    <div className="hidden lg:block   w-full px-[2rem] font-poppins ">
       <div className=" w=full flex flex-col gap-4 ">
         <h2 className="text-left text-[25px] md:text-[35px] lg:text-[62px]  text-black">Customers Review</h2>
         <div className="grid lg:grid-cols-2 md:grid-cols-2 place-items-left text-white text-left pl-[4rem] bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
@@ -30,7 +30,7 @@ const Reviews = () => {
                 className="w-full"
               />
             </div>
-            <div className="w-[5rem] h-[5rem] absolute top-[9rem] left-[11rem] p-3 rounded-full text-white  bg-white bg-opacity-30 flex items-center justify-center cursor-pointer">
+            <div className="w-[5rem] h-[5rem]  p-3 rounded-full text-white  bg-white bg-opacity-30 flex items-center justify-center cursor-pointer">
               <h2 className="text-[2.5rem]">
                 <BsPlayFill />
               </h2>

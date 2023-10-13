@@ -2,24 +2,24 @@ import React from "react";
 
 const Photo = () => {
   return (
-    <div className="hidden md:block lg:block font-poppins relative  top-[130rem]  left-[0rem] sm:top-[210rem] md:absolute lg:absolute md:top-[190rem] lg:top-[360%] pt-[80px]">
-      <div className="relative">
+    <div className="relative w-full md:block lg:block font-poppins ">
+      <div className="max-w-[1650px]  py-[1rem] md:py-[3rem] lg:py-[5rem] xl:py-[7rem]"> 
         <img
-          className=" h-[500px]  w-[1512px] sm:h-[700px]  xl:hidden md:hidden lg:hidden"
+          className=" h-full  w-[1512px] sm:h-[700px]  xl:hidden md:hidden lg:hidden"
           src="/patty-brito-Y-3Dt0us7e0-unsplash mob.png"
           alt=""
         />
-    <img
+        <img
           className="hidden  w-[1512px]  md:h-[500px] lg:h-[450px] md:block lg:block xl:block"
           src="/patty-brito-Y-3Dt0us7e0-unsplash desk.png"
           alt=""
         />
-        <div className="text-left absolute top-[7rem] left-3 lg:left-[4rem] text-white">
+        <div className="text-left absolute top-[23rem] left-[3rem] lg:left-[4rem] text-white">
           <h2>
             What we have achieved <br /> in the past two years.
           </h2>
         </div>
-        <div className="absolute top-[17rem] md:top-[20rem] lg:top-[20rem] left-5 lg:right-[5rem]">
+        <div className=" absolute lg:top-[30rem] top-[30rem] left-5 lg:right-[5rem]">
           <div className="flex flex-col md:flex-row lg:flex-row gap-4 text-white">
             <div>
               <h1 className="text-[46px] font-bold">40k+</h1>
