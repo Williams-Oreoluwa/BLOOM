@@ -7,7 +7,7 @@ const Navbar = () => {
     // Mobile Nav bar
     <div className=" w-full  bg-gradient-to-r z-[1] from-[#594EDC] to-[#A54DE4]">
       {Nav ? <MobileMenu /> : ""}
-      <div className="max-w-[1650px] relative  w-full p-4 ">
+      <div className="max-w-[1650px]  w-full p-4 ">
         <div className="max-w-[1650px] bg-white  p-4  rounded-2xl lg:hidden xl:hidden 2xl:hidden">
           <div className='grid grid-cols-2 place-items-center gap-[40vw] md:gap-[65vw]'>
             <div>
