@@ -12,7 +12,7 @@ import Photo from "./Photo";
 
 const Home = () => {
   return (
-    <div className="top-0 left-0 flex flex-col item-center justify-center min-h-screen">
+    <div className="absolute w-full top-0 left-0 flex flex-col item-center justify-center min-h-screen">
       <Navbar />
       <Hero/>
       <Description/>

@@ -3,7 +3,7 @@ import MobileMenu from "./MobileMenu";
 
 const Hero = () => {
   return (
-    <div className="top-[-1rem]  min-h-screen  text-left w-full bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
+    <div className="relative top-[-1rem]  min-h-screen  text-left w-full bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
       <div className="max-w-[1650px] grid grid-cols-1 gap-[7rem] items-left justify-left pt-[8rem]  p-[1rem] md:p-[3rem] lg:p-[5rem] xl:p-[7rem]">
         <div className=" font-poppins text-white ">
           <div>
