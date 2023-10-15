@@ -40,7 +40,7 @@ const Navbar = () => {
 
         {/* Desktop screen */}
 
-        <div className=" hidden relative w-full lg:block xl:block 2xl:block px-auto">
+        <div className=" hidden relative w-full lg:block  2xl:block px-auto xl:flex xl:items-center xl:justify-start xl:py-auto xl:px-[5rem]">
           <div className="flex gap-[25rem] max-w-[1650px] xl:gap-[30rem] item-center justify-center p-[1rem]">
             <div className="text-white text-3xl">
               <h1>Bloom</h1>
