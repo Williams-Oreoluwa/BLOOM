@@ -3,8 +3,8 @@ import MobileMenu from "./MobileMenu";
 
 const Hero = () => {
   return (
-    <div className="relative xl:flex xl:items-center xl:justify-start xl:px-[5rem]  min-h-screen  text-left w-full bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
-      <div className="max-w-[1650px] grid grid-cols-1 gap-[7rem] items-left justify-left ">
+    <div className="relative flex  items-center justify-start  min-h-screen  text-left w-full bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
+      <div className="max-w-[1650px] grid grid-cols-1 gap-[7rem] items-left p-[5rem]">
         <div className=" font-poppins text-white ">
           <div>
             <div>

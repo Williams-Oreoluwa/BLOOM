@@ -5,9 +5,9 @@ const Navbar = () => {
   const [Nav, setNav] = React.useState(false);
   return (
     // Mobile Nav bar
-    <div className=" w-full  bg-gradient-to-r z-[1] from-[#594EDC] to-[#A54DE4]">
+    <div className="flex  items-center justify-center  w-full  bg-gradient-to-r z-[1] from-[#594EDC] to-[#A54DE4]">
       {Nav ? <MobileMenu /> : ""}
-      <div className="max-w-[1650px] relative  w-full p-4 ">
+      <div className="max-w-[1650px] relative  w-full ">
         <div className="max-w-[1650px] bg-white  p-4  rounded-2xl lg:hidden xl:hidden 2xl:hidden">
           <div className='grid grid-cols-2 place-items-center gap-[40vw] md:gap-[65vw]'>
             <div>
@@ -40,8 +40,8 @@ const Navbar = () => {
 
         {/* Desktop screen */}
 
-        <div className=" hidden relative w-full lg:block  2xl:block px-auto xl:flex xl:items-center xl:justify-start xl:py-auto xl:px-[5rem]">
-          <div className="flex gap-[25rem] max-w-[1650px] xl:gap-[30rem] item-center justify-center p-[1rem]">
+        <div className=" hidden relative w-full  px-auto md:flex lg:block xl:block  xl:py-auto">
+          <div className="flex gap-[25rem] max-w-[1650px] xl:gap-[30rem] item-center justify-start px-[5rem] py-[1rem]">
             <div className="text-white text-3xl">
               <h1>Bloom</h1>
             </div>
