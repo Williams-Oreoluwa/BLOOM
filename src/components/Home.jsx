@@ -11,24 +11,15 @@ import Photo from "./Photo";
 
 
 const Home = () => {
-  return (
-    <div className="absolute top-0 left-0">
-      <div className="flex flex-col w-full  min-h-screen">
-      <Navbar />
+  return <>
+   <Navbar />
       <Hero/>
-      <Description/>
-      <Service/>
-      <Cards/>
-      <Photo/>
-      <Blog/>
-      <Team/>
-    
+  </>
 
-      </div>
+     
 
     
-    </div>
-  );
+
 };
 
 export default Home;
