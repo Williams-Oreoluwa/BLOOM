@@ -2,15 +2,15 @@ import React from "react";
 
 const Photo = () => {
   return (
-    <div className="relative w-full md:block lg:block font-poppins  ">
-      <div className="max-w-[1650px]  py-[1rem] md:py-[3rem] lg:py-[5rem] xl:py-[7rem]"> 
+    <div className=" w-full md:block lg:block font-poppins  ">
+      {/* <div className="max-w-[1650px]  py-[1rem] md:py-[3rem] lg:py-[5rem] xl:py-[7rem]"> 
         <img
           className=" h-full  w-[1512px] sm:h-[700px]  xl:hidden md:hidden lg:hidden"
           src="/patty-brito-Y-3Dt0us7e0-unsplash mob.png"
           alt=""
         />
         <img
-          className="hidden  w-[1512px]  md:h-[500px] lg:h-[450px] md:block lg:block xl:block"
+          className="hidden  w-full md:block lg:block xl:block"
           src="/patty-brito-Y-3Dt0us7e0-unsplash desk.png"
           alt=""
         />
@@ -31,6 +31,11 @@ const Photo = () => {
             </div>
           </div>
         </div>
+      </div> */}
+      <div className=" image w-full">
+        <h1 className="text-[4rem]">
+          ffff
+        </h1>
       </div>
     </div>
   );

@@ -2,9 +2,9 @@ import React from "react";
 
 const Description = () => {
   return (  
-    <div className=" relative w-full xl:flex p-[5rem]  ">
-      <div className="items-center justify-start p-[5rem] md:p-[3rem]   max-w-[1640px] flex flex-col md:grid md:grid-cols-2 gap-[1rem] place-content-center">
-        <div className="flex flex-col gap-y-6 items-start text-left">
+    <div className="w-full p-[2rem] xl:p-0">
+      <div className=" flex flex-col md:grid md:grid-cols-2 gap-[1rem] xl:place-items-center">
+        <div className="flex flex-col gap-y-6  text-left">
           <h2 className="text-transform: uppercase text-[60px] font-poppins font-bold">
             The <span className=" bg-gradient-to-r from-[#594EDC] to-[#A54DE4] inline-block text-transparent bg-clip-text"> Bloom</span> <br />
             way
@@ -21,7 +21,7 @@ const Description = () => {
         </div>
         <div>
           <img
-            className=" w-[20rem] h-[400px] lg:w-[745px] lg:h-[350px] pt-4"
+            className=" w-[20rem] h-[400px] lg:w-[745px] lg:h-[350px]"
             src="/7d7e37650ba8a26d890460dfa5b412a9 1.png"
             alt=""
           />
