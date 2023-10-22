@@ -3,7 +3,7 @@ import React from "react";
 const Cards = () => {
   return (
     <section className="w-full font-poppins xl:flex item-center justify-center p-[1rem]  ">
-      <main className="lg:p-1 md:p-[2rem]  text-[6rem] grid md:grid-cols-2 lg:grid-cols-3 gap-[6rem]  place-items-center">
+      <main className="lg:p-1 md:p-[2rem]  text-[6rem] grid md:grid-cols-2 lg:grid-cols-3 gap-[2rem]  place-items-center">
         <div className="flex flex-col w-full hover:scale-[1.1] duration-100 cursor-pointer pb-[22px] items-center justify-center shadow-2xl p-4 ">
           <img src="/pajamas_planning.png" alt=""/>
           <h2 className="text-[26px]  font-bold">
