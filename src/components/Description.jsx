@@ -2,8 +2,8 @@ import React from "react";
 
 const Description = () => {
   return (  
-    <div className="w-full p-[2rem] xl:p-0">
-      <div className=" flex flex-col md:grid md:grid-cols-2 gap-[1rem] xl:place-items-center">
+    <div className="w-full p-[1rem] md:p-[5rem] lg:p-[5rem] xl:p-[5rem]">
+      <div className=" flex flex-col md:grid md:grid-cols-2 gap-[3rem]">
         <div className="flex flex-col gap-y-6  text-left">
           <h2 className="text-transform: uppercase text-[60px] font-poppins font-bold">
             The <span className=" bg-gradient-to-r from-[#594EDC] to-[#A54DE4] inline-block text-transparent bg-clip-text"> Bloom</span> <br />

@@ -1,44 +1,54 @@
 import React, { useState, useEffect } from "react";
-import { BsArrowsAngleContract } from "react-icons/bs";
+import { BsArrowsAngleContract, BsArrowUpRight } from "react-icons/bs";
 
 const Service = () => {
   return (
     <>
-      <div className="  text-black w-full   text-left  ">
-        <div className="flex flex-col  gap-2 py-[1rem] md:py-[3rem]  ">
-          <h2 className="text-[32px] md:text-[62px] pl-2 lg:pl-[8rem] font-poppins  uppercase">
+      <div className="  text-black w-full   text-left">
+        <div className="flex flex-col  gap- py-[1rem] md:py-[3rem]  ">
+          <h2 className="text-[32px] md:text-[62px] pl-[2rem] lg:p-[5rem] font-poppins  uppercase">
             What we offer
           </h2>
 
-          <div className="bg-gradient-to-r  from-[#594EDC] to-[#A54DE4] font-poppins w-full lg:h-[50%] py-7">
-            <div className="flex flex-col items-center justify-center text-center text-white md:hidden lg:hidden mx-auto">
-              <div className=" relative ">
+          <div className="bg-gradient-to-r text-center from-[#594EDC] to-[#A54DE4] font-poppins w-full">
+            <div className="flex flex-col items-center justify-center text-left text-white md:hidden lg:hidden mx-auto">
+              <div className=" relative p-4 border-b-[2px] border-b-white">
                 <div className="">
                   <img src="/Group 27 (1).png" />
                 </div>
                 <p className="text-[24px]  pt-4">
                   Seemless Service to transform your business.
                 </p>
-                <div className="flex flex-row gap-2 items-center justify-center">
-                  <a href="" className="pt-[4] border-b-2 border-white ">
-                  Contact Us
-                  </a>
-                </div>
+                <div className="flex flex-row items-center gap-2 justify-center text-[10px] pb-1  text-white">
+                    <a href="" className="text-[20px]">
+                      Contact Us
+                    </a>
+                    <span className="text-[20px]">
+                      <BsArrowUpRight />
+                    </span>
+                  </div>
               </div>
             </div>
 
-            <div className=" relative hidden   md:grid md:grid-cols-2 pr-[5rem] pt-7 md:text-white md:place-items-center md:justify-center">
-              <div className="flex flex-col items-left justify-center  ">
-                <p className="p-[.7rem] text-[30px]">
+            <div className="  hidden   md:grid md:grid-cols-2 gap-1 place-items-center p-[5rem] md:text-white md:place-items-start md:justify-center">
+              <div className="flex flex-col  items-center justify-center ">
+                <p className="text-[30px]">
                   Seemless Service to <br /> transform your business.
                 </p>
-                <a href="">
-                  <img src="/Screenshot 2023-10-08 075507.png" alt="" />
-                </a>
+                <div>
+                  <div className="flex flex-row items-center gap-2 justify-center text-[10px] pb-1 border-b-[2px] border-b-white text-white">
+                    <a href="" className="text-[20px]">
+                      Contact Us
+                    </a>
+                    <span className="text-[20px]">
+                      <BsArrowUpRight />
+                    </span>
+                  </div>
+                </div>
               </div>
 
-              <div >
-                <img  src="/Group 27 (1).png" />
+              <div>
+                <img src="/Group 27 (1).png" size={20} />
               </div>
             </div>
           </div>

@@ -8,6 +8,8 @@ import Team from "./Team";
 import Service from "./Service";
 import Cards from "./Cards";
 import Photo from "./Photo";
+import Partners from "./Partners";
+import Footer from "./Footer";
 
 const Home = () => {
   return (
@@ -24,6 +26,8 @@ const Home = () => {
         <Reviews />
         <Blog />
         <Team />
+        <Partners/>
+        <Footer/>
 
         <div className="sm:px-16  flex justify-center items-start">
           <div className=" w-full">

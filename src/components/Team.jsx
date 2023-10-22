@@ -3,7 +3,7 @@ import React from 'react'
 const Team = () => {
   return (
     <div className=' w-full flex flex-col  font-poppins items-center justify-center'>
-        <div className='max-w-[1650px] p-[1rem] md:p-[3rem] lg:p-[5rem] xl:p-[7rem] grid grid-col text-left'>
+        <div className=' p-[1rem] md:p-[3rem] lg:p-[5rem] xl:p-[7rem] grid grid-col text-left'>
             <h2 className='uppercase text-[3rem] '>
                 Meet the team
             </h2>

@@ -11,8 +11,8 @@ const Navbar = () => {
     <>
   
    
-        <nav className=" p-[2rem]  font-poppins w-full  navbar bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
-          <div className="hidden  md:flex lg:flex xl:flex 2xl:flex py-6  items-center text-white ">
+        <nav className="md:px-[5rem] lg:px-[5rem]  font-poppins w-full  navbar bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
+          <div className="hidden  md:flex lg:flex xl:flex 2xl:flex py-6  items-end justify-center text-white ">
             <h1 className="text-[2rem]">BLOOM</h1>
             <ul className="cursor-pointer text-[.7rem] list-none sm:flex hidden justify-end items-center flex-1 gap-8 text-white">
               <li>About</li>
@@ -29,9 +29,9 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-          <div className="block md:hidden lg:hidden xl:hidden 2xl:hidden ">
+          <div className="block md:hidden lg:hidden xl:hidden 2xl:hidden w-full p-5">
             <div className="bg-white rounded-xl">
-              <div className="flex items-center justify-between p-6">
+              <div className="flex items-center justify-between p-2">
                 <img src="/Group 2.png" alt="" />
                 <div className="z-10">
                   <span
