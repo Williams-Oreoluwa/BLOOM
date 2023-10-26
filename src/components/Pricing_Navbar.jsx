@@ -62,7 +62,9 @@ const Pricing_Navbar = () => {
           <ul className="flex flex-col text-left font-bold font-poppins ">
             <li className="pt-6">
               <button className=" bg-gradient-to-r from-[#594EDC] to-[#A54DE4] text-white text-sm py-4 px-2 w-[200px] rounded-full">
-                Try for free
+              <h1 className="text-[1rem] text-white inline-block text-transparent bg-clip-text">
+                  <Link to="/login">Try for free</Link>
+                </h1>
               </button>
             </li>
             <li className="pt-6">
