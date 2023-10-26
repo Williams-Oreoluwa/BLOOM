@@ -10,7 +10,7 @@ const Reviews = () => {
             Customers Review
           </h2>
           <div className="grid lg:grid-cols-2 md:grid-cols-2 place-items-left  text-white text-left pl-[4rem] bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
-            <div className="my-auto flex flex-col gap-10 ">
+            <div className="my-auto flex flex-col gap-5 ">
               <p className="text-[22px] ">
                 Hear what some of our customers <br />
                 have to say about our service and impact <br />

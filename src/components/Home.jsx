@@ -14,7 +14,7 @@ import Footer from "./Footer";
 const Home = () => {
   return (
     <>
-      <div className="absolute top-0 left-0  w-full flex flex-col ">
+      <div className="absolute top-0 left-0  w-full flex flex-col  ">
         <Navbar />
 
         <Hero />
@@ -29,18 +29,7 @@ const Home = () => {
         <Partners/>
         <Footer/>
 
-        <div className="sm:px-16  flex justify-center items-start">
-          <div className=" w-full">
-            {/* <Stats />
-          <Business />
-          <Billing />
-          <CardDeal />
-          <Testimonials />
-          <Clients />
-          <CTA />
-          <Footer /> */}
-          </div>
-        </div>
+   
       </div>
     </>
   );

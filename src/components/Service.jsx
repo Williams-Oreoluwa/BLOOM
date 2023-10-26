@@ -30,9 +30,9 @@ const Service = () => {
               </div>
             </div>
 
-            <div className="  hidden   md:grid md:grid-cols-2 gap-1 place-items-center p-[5rem] md:text-white md:place-items-start md:justify-center">
-              <div className="flex flex-col  items-center justify-center ">
-                <p className="text-[30px]">
+            <div className="  hidden   md:grid md:grid-cols-2  place-items-center p-[5rem] md:text-white md:place-items-start md:justify-center">
+              <div className="flex flex-col    items-center justify-center ">
+                <p className="text-[30px] pt-[3rem]">
                   Seemless Service to <br /> transform your business.
                 </p>
                 <div>
