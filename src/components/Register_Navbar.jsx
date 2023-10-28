@@ -14,14 +14,14 @@ const Register_Navbar = () => {
             className="md:hidden lg:hidden xl:hidden 2xl:hidden"
             alt=""
           />
-          <div className="cursor-pointer text-[.7rem] list-none   text-white">
+          <div className="text-[.7rem] list-none   text-white">
             <div className="flex gap-4">
-              <button className="p-4 bg-white rounded-full">
+              <button className="p-4 bg-white rounded-full cursor-pointer ">
                 <h1 className="text-[1rem] bg-gradient-to-r from-[#594EDC] to-[#A54DE4]  inline-block text-transparent bg-clip-text">
                   <Link to="/login">Login</Link>
                 </h1>
               </button>
-              <button className="text-[1rem] p-4 bg-white rounded-full">
+              <button className="text-[1rem] p-4 bg-white rounded-full cursor-pointer ">
                 <Link to="/">
                   <h1 className="bg-gradient-to-r from-[#594EDC] to-[#A54DE4]  inline-block text-transparent bg-clip-text">
                     Back Home

@@ -4,7 +4,7 @@ const Description = () => {
   return (  
     <div className=" w-full p-[1rem] md:p-[5rem] lg:p-[5rem] xl:p-[5rem]">
       <div className=" flex flex-col md:grid md:grid-cols-2 gap-[3rem]">
-        <div className="flex    flex-col gap-y-6  text-left">
+        <div className="flex flex-col gap-y-6  text-left">
           <h2 className="text-transform: uppercase text-[60px] font-poppins font-bold">
             The <span className=" bg-gradient-to-r from-[#594EDC] to-[#A54DE4] inline-block text-transparent bg-clip-text"> Bloom</span> <br />
             way
@@ -22,7 +22,7 @@ const Description = () => {
         <div>
           <img
             className=" w-[20rem] h-[400px] lg:w-[745px] lg:h-[350px]"
-            src="/7d7e37650ba8a26d890460dfa5b412a9 1.png"
+            src="/assets/7d7e37650ba8a26d890460dfa5b412a9 1.png"
             alt=""
           />
         </div>

@@ -10,7 +10,7 @@ const Login_Body = () => {
         </h2>
         <h3 className="text-[#BFBFD4]">Sign up for a free Demo</h3>
         <div className="flex gap-2 items-center justify-center  p-4 border-[2px] border-[#625F5F] rounded-full">
-          <img src="/flat-color-icons_google.png" alt="" />
+          <img src="/assets/flat-color-icons_google.png" alt="" />
           <h3>Sign Up with Google</h3>
         </div>
       </div>

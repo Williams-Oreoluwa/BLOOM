@@ -1,6 +1,6 @@
 import React from "react";
-import Login_Navbar from "./Login_Navbar";
-import Login_Body from "./Login_Body";
+import Login_Navbar from "../components/Login_Navbar";
+import Login_Body from "../components/Login_Body";
 
 const Login = () => {
   return (

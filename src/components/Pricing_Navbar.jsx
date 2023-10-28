@@ -38,13 +38,13 @@ const Pricing_Navbar = () => {
               <img src="/Group 2.png" alt="" />
               <div className="z-10">
                 <span onClick={handleNav} className={nav ? "hidden" : "block"}>
-                  <img src="/Vector 4.png" alt="" />
+                  <img src="/assets/Vector 4.png" alt="" />
                 </span>
                 <span
                   onClick={handleNav}
                   className={nav ? "block z-10 fixed right-8" : "hidden"}
                 >
-                  <img src="/Vector 50.png" alt="" />
+                  <img src="/assets/Vector 50.png" alt="" />
                 </span>
               </div>
             </div>

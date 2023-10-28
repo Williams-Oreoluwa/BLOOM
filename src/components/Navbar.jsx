@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import MobileMenu from "./MobileMenu";
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
@@ -13,18 +12,18 @@ const Navbar = () => {
       <nav className="md:px-[5rem] lg:px-[5rem] font-poppins w-full  navbar bg-gradient-to-r from-[#594EDC] to-[#A54DE4]">
         <div className="hidden   md:flex lg:flex xl:flex 2xl:flex py-6  items-center justify-center text-white ">
           <h1 className="text-[2rem]">BLOOM</h1>
-          <ul className="cursor-pointer text-[.7rem] list-none sm:flex hidden justify-end items-center flex-1 gap-8 text-white">
-            <li>About</li>
-            <li>Blog</li>
-            <li>Conact</li>
-            <li>
+          <ul className="cursor-pointer text-md list-none sm:flex hidden justify-end items-center flex-1 gap-8 text-white">
+            <li className="hover:bg-white hover:text-[#594EDC] hover:rounded-[50px] hover:p-4">About</li>
+            <li className="hover:bg-white hover:text-[#594EDC] hover:rounded-[50px] hover:p-4">Blog</li>
+            <li className="hover:bg-white hover:text-[#594EDC] hover:rounded-[50px] hover:p-4">Conact</li>
+            <li className="hover:bg-white hover:text-[#594EDC] hover:rounded-[50px] hover:p-4">
               <Link to="/pricing">Pricing</Link>
             </li>
 
             <li>
               <button className="p-4 bg-white rounded-full">
                 <h1 className="bg-gradient-to-r from-[#594EDC] to-[#A54DE4]  inline-block text-transparent bg-clip-text">
-                <Link to="/register">Try for free</Link>
+                <Link to="/login">Try for free</Link>
                 </h1>
               </button>
             </li>
@@ -34,16 +33,16 @@ const Navbar = () => {
         <div className="block md:hidden lg:hidden xl:hidden 2xl:hidden w-full p-5">
           <div className="bg-white rounded-xl">
             <div className="flex items-center justify-between p-2">
-              <img src="/Group 2.png" alt="" />
+              <img src="assets/Group 2.png" alt="" />
               <div className="z-10">
                 <span onClick={handleNav} className={nav ? "hidden" : "block"}>
-                  <img src="/Vector 4.png" alt="" />
+                  <img src="/assets/Vector 4.png" alt="" />
                 </span>
                 <span
                   onClick={handleNav}
                   className={nav ? "block z-10 fixed right-8" : "hidden"}
                 >
-                  <img src="/Vector 50.png" alt="" />
+                  <img src="/assets/Vector 50.png" alt="" />
                 </span>
               </div>
             </div>
@@ -67,7 +66,7 @@ const Navbar = () => {
             </li>
             <li className="pt-6">
               <button className=" bg-gradient-to-r from-[#594EDC] to-[#A54DE4] text-white text-sm py-4 px-2 w-[200px] rounded-full">
-              <Link to="/register">Try for free</Link>
+              <Link to="/login">Try for free</Link>
               </button>
             </li>
           </ul>

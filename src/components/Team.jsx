@@ -12,8 +12,8 @@ const Team = () => {
             </h5>
             < div className='flex flex-col md:flex-row xl:flex-row 2xl:flex-row lg:flex-row gap-2 items-center justify-center'>
                 
-                <img src="/Group 14.png" alt="" className='w-full hover:scale-[1.01]' />
-                <img src="/Group 15.png" alt="" className='w-full hover:scale-[1.01]' />
+                <img src="/assets/Group 14.png" alt="" className='w-full hover:scale-[1.01]' />
+                <img src="/assets/Group 15.png" alt="" className='w-full hover:scale-[1.01]' />
             </div>
         </div>
       

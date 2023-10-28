@@ -14,7 +14,7 @@ const Service = () => {
             <div className="flex flex-col items-center justify-center text-left text-white md:hidden lg:hidden mx-auto">
               <div className=" relative p-4 border-b-[2px] border-b-white">
                 <div className="">
-                  <img src="/Group 27 (1).png" />
+                  <img src="/assets/Group 27 (1).png" />
                 </div>
                 <p className="text-[24px]  pt-4">
                   Seemless Service to transform your business.
@@ -48,7 +48,7 @@ const Service = () => {
               </div>
 
               <div>
-                <img src="/Group 27 (1).png" size={20} />
+                <img src="/assets/Group 27 (1).png" size={20} />
               </div>
             </div>
           </div>

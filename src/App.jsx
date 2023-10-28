@@ -1,13 +1,13 @@
-import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
+import  React,{ useState } from "react";
+
 import "./App.css";
-import Home from "./components/Home";
+import Home from "./Pages/Home";
 
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import Pricing from "./components/Pricing";
-import Register from "./components/Register";
-import Login from "./components/Login";
+import Pricing from "./Pages/Pricing";
+import Register from "./Pages/Register";
+import Login from "./Pages/Login";
+
 
 function App() {
   return (

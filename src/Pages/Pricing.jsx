@@ -1,17 +1,14 @@
 import React from "react";
-import Navbar from "./Navbar";
-import Pricing_Navbar from "./Pricing_Navbar";
-import Pricing_Hero from "./Pricing_Hero";
-import Footer from "./Footer";
-import Cost from "./Cost";
+import Pricing_Navbar from "../components/Pricing_Navbar";
+import Pricing_Hero from "../components/Pricing_Hero";
+import Footer from "../components/Footer";
+import Cost from "../components/Cost";
 
 const Pricing = () => {
   return (
     <>
       <div className="absolute top-0 left-0  w-full flex flex-col ">
         <Pricing_Navbar />
-    
-
         <Pricing_Hero />
         <Cost/>
         <Footer/>

@@ -27,7 +27,7 @@ const Reviews = () => {
             <div className="">
               <div className=" relative ">
                 <img
-                  src="/askas-jeremy-7TI-3jUObYg-unsplash.png"
+                  src="/assets/askas-jeremy-7TI-3jUObYg-unsplash.png"
                   alt=""
                   className="w-full"
                 />
@@ -53,7 +53,7 @@ const Reviews = () => {
             <div className="relative">
               <div>
                 <img
-                  src="/askas-jeremy-7TI-3jUObYg-unsplash.png"
+                  src="/assets/askas-jeremy-7TI-3jUObYg-unsplash.png"
                   alt=""
                   className="w-full"
                 />

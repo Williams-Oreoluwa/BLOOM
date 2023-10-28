@@ -10,10 +10,10 @@ const Partners = () => {
         </p>
         <div className="flex items-center justify-center">
         <div className="grid md:grid-cols-2 lg:grid-cols-4 place-items-center place-content-evenly">
-          <img src="/image 1.png" alt="" />
-          <img src="/image 2.png" alt="" />
-          <img src="/image 3.png" alt="" />
-          <img src="/image 4.png" alt="" />
+          <img src="/assets/image 1.png" alt="" />
+          <img src="/assets/image 2.png" alt="" />
+          <img src="/assets/image 3.png" alt="" />
+          <img src="/assets/image 4.png" alt="" />
         </div>
 
         </div>

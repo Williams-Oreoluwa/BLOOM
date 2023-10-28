@@ -14,7 +14,7 @@ const Blog = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-[4rem] ">
             <div className=" hover:scale-[1.01] duration-100 cursor-pointer">
               <img 
-                src="/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.png"
+                src="assets/hush-naidoo-jade-photography-yo01Z-9HQAw-unsplash.png"
                 alt=""
                 className='w-[600%] h-[100%]'
                 
@@ -24,12 +24,12 @@ const Blog = () => {
              
             </div>
             <div className=" hover:scale-[1.01] duration-100 cursor-pointer">
-              <img src="/Group 12.png" alt="" />
+              <img src="assets/Group 12.png" alt="" />
        
             
             </div>
             <div className=" hover:scale-[1.01] duration-100 cursor-pointer">
-              <img  src="/Group 13.png" alt="" />
+              <img  src="assets/Group 13.png" alt="" />
            
             
             </div>

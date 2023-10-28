@@ -1,6 +1,6 @@
 import React from "react";
-import Register_Navbar from "./Register_Navbar";
-import Register_body from "./Register_body";
+import Register_Navbar from "../components/Register_Navbar";
+import Register_body from "../components/Register_body";
 
 const Register = () => {
   return (
