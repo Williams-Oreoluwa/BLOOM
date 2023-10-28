@@ -10,7 +10,7 @@ const Login_Navbar = () => {
             BLOOM
           </h1>
           <img
-            src="/Vector 19.png"
+            src="/assets/Vector 19.png"
             className="md:hidden lg:hidden xl:hidden 2xl:hidden"
             alt=""
           />
